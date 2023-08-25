@@ -1,0 +1,29 @@
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# Docker
+Dockerfile.build
+.dockerignore
+
+# Docker Compose
+docker-compose.override.yml
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE and editor folders/files
+.idea/
+.vscode/
+*.swp
+*.swo
